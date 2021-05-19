@@ -1,1 +1,1 @@
-# underactuated-final-project
+# Optimization-based Motion Planning Methods for Legged Robots
