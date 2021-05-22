@@ -10,7 +10,7 @@ This code modifies the notebooks presented in the [class's online textbook](http
 |:--------:|:------------:|
 |![](walkinggif.gif)|![](runninggif.gif)|
 
-We looked at two different numerical optimization methods for motion planning with legged robots. The first method uses a non-linear program solver in conjunction with a hard-coded mode sequence (i.e. when each of the robots' feet are in contact with the ground). The second method is detailed in [\[Valenzuela, 2016\]](https://groups.csail.mit.edu/robotics-center/public_papers/Valenzuela16.pdf), instead using a mixed-integer quadratic program (MIQP) in conjunction with linear convex approximations of non-linear decision variable constraints to describe robot dynamics and kinematics.
+We looked at two different numerical optimization methods for motion planning with legged robots. The first method uses a non-linear program solver in conjunction with a hard-coded mode sequence (i.e. when each of the robots' feet are in contact with the ground). The second method is detailed in [\[Valenzuela, 2016\]](https://groups.csail.mit.edu/robotics-center/public_papers/Valenzuela16.pdf), instead using a mixed-integer quadratic program (MIQP) in conjunction with linear convex approximations of non-linear decision variable constraints to describe robot dynamics and kinematics. [The full paper can be viewed here](https://github.com/verityw/underactuated-final-project/blob/main/6_832_Final_Project.pdf).
 
 We implemented the former on a simulated planar version of Boston Dynamics' LittleDog robot. This was done in Python, using PyDrake's simulation capabilities as well as its built-in mathematical program solvers.
 
